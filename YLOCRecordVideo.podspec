@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YLOCRecordVideo'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YLOCRecordVideo.'
+  s.version          = '0.9.1'
+  s.summary          = '小视频录制，可以控制录制时间及录制质量'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+小视频录制，可以控制录制时间及录制质量，录制完成以后传出资源路径
                        DESC
 
   s.homepage         = 'https://github.com/hoggenw/YLOCRecordVideo'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'Photos','AVKit','AVFoundation','Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
