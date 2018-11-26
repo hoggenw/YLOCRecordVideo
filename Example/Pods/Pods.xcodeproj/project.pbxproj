@@ -7,24 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003DC0C0FBCA605FDD65B761EDD98DE6 /* YLRecordVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B462E1CB696D99ACFD1580472ADFFE /* YLRecordVideoView.m */; };
 		1389DF31028E4D5609AF4302A2225C41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3803CBBC36B598D008A7DAEDECD72A78 /* Foundation.framework */; };
-		1F75208636D767A4F6AB9FF220F9096B /* YLRecordControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A8CB19DEAED306FD50D6948611AF11 /* YLRecordControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		338134E12E635844CD9B8E4493BEF816 /* RecordHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 986CB542A5CC71439EE588DA7B7AFD21 /* RecordHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5152DA209F721DA2217C9C0E33D73A16 /* YLProgressRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23ADC3852EBE3E321A15D1CAF062B782 /* YLProgressRecordView.m */; };
-		69E2CF40D9D49BB2D1982376BD9F4553 /* YLOCRecordVideo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF0325831D550687C3648F333DF27D9 /* YLOCRecordVideo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BF169EA9798DEB5768CDAA4D70A8D0F /* YLRecordVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F15DD655F0E3C6C03FA094428EA48EA /* YLRecordVideoManager.m */; };
-		8103DD848CE70A68927F677473E747CC /* YLRecordVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A39214ADDF3BADADEF30D773A427F7D /* YLRecordVideoView.m */; };
-		916BB06B4D353EB70DD50B8C8C084647 /* YLProgressRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB051B7F061055DD9500D9203E1EDE31 /* YLProgressRecordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38D77EA13C58E187E4B070539FAC239E /* YLRecordVideoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1800B49A9D0C2E996B1CB250BF230510 /* YLRecordVideoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		396CA1DADDA7CA97D58740E15C9A8E6A /* YLRecordVideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1674C9383529826EA961F0A0D65E3DCF /* YLRecordVideoManager.m */; };
+		63A7A136D4A66A9B32F000BE98DD1893 /* RecordHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CEBEF3043BC70E87BFB692B89C58F32 /* RecordHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70D55F15D084F725EBEC3EE5BF67FB76 /* YLProgressRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B0670A01A154C3331453A74F763E334 /* YLProgressRecordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		724619A48CA01EA0E8D1C0DAF2C28CC1 /* UIColor+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF0F75923CCC070F6185E36941B1408 /* UIColor+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76E1682FE9CA6ECFFDAE06911AF1BAC2 /* YLRecordVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = F76173A497192895D58BAAB9163405A4 /* YLRecordVideoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		796BF38C72A8BEDAA02F9FAB1BD9CB5C /* NSTimer+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = BE519C0A4EB887ADC89D5ACAC506C542 /* NSTimer+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8172F21E6FFA1E3A34462D6B0EA99B91 /* YLRecordControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDDF013FEE0CA4BCB8EE2FCCB1EE020 /* YLRecordControlView.m */; };
+		8726877D108692ED2D99B21418E925ED /* YLProgressRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 146CFC8BED7C2DA1F0FB7A57CA278B16 /* YLProgressRecordView.m */; };
 		A45768437AF1DAD13FA6F7F2D96F73FF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE515D9ACF6BE2C22A6BC8EF99F6E81 /* AVFoundation.framework */; };
+		A7AF207E158146C32BB6B7279C1A9601 /* NSTimer+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C482E0704C2045E148B63473129732 /* NSTimer+Extension.m */; };
+		A804D172E2373807EBF5B8E26EB0806A /* YLOCRecordVideo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C18DE1CB294C646DEF67E7956C3FAAF /* YLOCRecordVideo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B040B3AFF4B4D814FAD293474BFFAF37 /* Pods-YLOCRecordVideo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D45AA760EEFBBF43199D2347C134CDC4 /* Pods-YLOCRecordVideo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3961757D00A0DA3BE182C4D64C2821A /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E6A0E10FD3CC9ADE4BDFD5CD8BED06 /* Photos.framework */; };
-		B40A0EB5B5B923FA25639699CB68E600 /* YLOCRecordVideo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7990CCDD5D94A51EA51FEFFEF29EFB /* YLOCRecordVideo-dummy.m */; };
-		B94CD3BC2CAC17B188E1F36887A36471 /* YLRecordVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FBD97FA55EEECD4DAB1AE8B76ADF448 /* YLRecordVideoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B95815B9B129689E7625B269A89FDA0C /* YLRecordVideoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E31A41CCDA2F51D5C6EC7FFBEE6EAC /* YLRecordVideoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C24BD26130895312C12665DE4D55FC98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3803CBBC36B598D008A7DAEDECD72A78 /* Foundation.framework */; };
 		C37A5FC8B97EBA97BF7B26BFDD032DD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF471E925B1FC1FA4D67601A495450F8 /* UIKit.framework */; };
-		DBA33A28471C4D668A8E9E83F61518C8 /* YLRecordControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC872C70AE964579E972EBC1B959DCAA /* YLRecordControlView.m */; };
+		D0FD78C2B9EDC9F0BC29334554C49D76 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC6739B1774E645DD02527438C83129 /* UIColor+Extension.m */; };
+		D274BDFDE5D312DAB4BCE3E4C38AD0D6 /* YLOCRecordVideo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DADF41357848AC354A68502367AD61DF /* YLOCRecordVideo-dummy.m */; };
 		EB8940EBE5E3DD5ACD99A78F11BB54CB /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2F28CD7506ED90471525D44B845C74 /* AVKit.framework */; };
+		F5449950CA4B7C52F899305203F0CB1D /* YLRecordControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C48957BC46E1725FB7B234D9550CF26 /* YLRecordControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8C7224A6A27C20DE17088ED322F2CCE /* Pods-YLOCRecordVideo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6614807F6DC13988740F36DEE822982B /* Pods-YLOCRecordVideo_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -39,42 +43,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CF1F88169805BA5924433CB1CB80861 /* YLOCRecordVideo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLOCRecordVideo-prefix.pch"; sourceTree = "<group>"; };
+		0FBFD9A750A89889FD4FAC6CFA2DE2AF /* YLOCRecordVideo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YLOCRecordVideo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1006A79E92D87445C5CECAB33C307310 /* Pods-YLOCRecordVideo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLOCRecordVideo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1A39214ADDF3BADADEF30D773A427F7D /* YLRecordVideoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLRecordVideoView.m; path = YLOCRecordVideo/Classes/YLRecordVideoView.m; sourceTree = "<group>"; };
-		1F15DD655F0E3C6C03FA094428EA48EA /* YLRecordVideoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLRecordVideoManager.m; path = YLOCRecordVideo/Classes/YLRecordVideoManager.m; sourceTree = "<group>"; };
-		23ADC3852EBE3E321A15D1CAF062B782 /* YLProgressRecordView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLProgressRecordView.m; path = YLOCRecordVideo/Classes/YLProgressRecordView.m; sourceTree = "<group>"; };
+		146CFC8BED7C2DA1F0FB7A57CA278B16 /* YLProgressRecordView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLProgressRecordView.m; path = YLOCRecordVideo/Classes/YLProgressRecordView.m; sourceTree = "<group>"; };
+		1674C9383529826EA961F0A0D65E3DCF /* YLRecordVideoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLRecordVideoManager.m; path = YLOCRecordVideo/Classes/YLRecordVideoManager.m; sourceTree = "<group>"; };
+		1800B49A9D0C2E996B1CB250BF230510 /* YLRecordVideoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLRecordVideoManager.h; path = YLOCRecordVideo/Classes/YLRecordVideoManager.h; sourceTree = "<group>"; };
 		24E6A0E10FD3CC9ADE4BDFD5CD8BED06 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
-		28717267EEBB9F7C58453696D35C7541 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3080EBBC5E893A4B7D23EA868B51FB98 /* YLOCRecordVideo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YLOCRecordVideo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3803CBBC36B598D008A7DAEDECD72A78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		484CFC73B69BFECD656A70D80D41C721 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4BB2FF688BD11A5F39CF5D58825C611F /* Pods-YLOCRecordVideo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLOCRecordVideo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AC6739B1774E645DD02527438C83129 /* UIColor+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extension.m"; path = "YLOCRecordVideo/Classes/UIColor+Extension.m"; sourceTree = "<group>"; };
+		5C18DE1CB294C646DEF67E7956C3FAAF /* YLOCRecordVideo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLOCRecordVideo-umbrella.h"; sourceTree = "<group>"; };
+		5D074FDE3857DDC4966A4000DD624CC2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5F2F28CD7506ED90471525D44B845C74 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
 		653B3414D7400A6CF909E5D9835282C1 /* Pods-YLOCRecordVideo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLOCRecordVideo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6614807F6DC13988740F36DEE822982B /* Pods-YLOCRecordVideo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLOCRecordVideo_Tests-dummy.m"; sourceTree = "<group>"; };
-		6A2E3C287B4ED7AA990B42E6B4D6C54C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7DF0325831D550687C3648F333DF27D9 /* YLOCRecordVideo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLOCRecordVideo-umbrella.h"; sourceTree = "<group>"; };
+		668BB3F7C870E34F8BFB73BA075D5D09 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72C482E0704C2045E148B63473129732 /* NSTimer+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+Extension.m"; path = "YLOCRecordVideo/Classes/NSTimer+Extension.m"; sourceTree = "<group>"; };
+		7CEBEF3043BC70E87BFB692B89C58F32 /* RecordHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RecordHeader.h; path = YLOCRecordVideo/Classes/RecordHeader.h; sourceTree = "<group>"; };
+		81B462E1CB696D99ACFD1580472ADFFE /* YLRecordVideoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLRecordVideoView.m; path = YLOCRecordVideo/Classes/YLRecordVideoView.m; sourceTree = "<group>"; };
+		8B0670A01A154C3331453A74F763E334 /* YLProgressRecordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLProgressRecordView.h; path = YLOCRecordVideo/Classes/YLProgressRecordView.h; sourceTree = "<group>"; };
+		8C48957BC46E1725FB7B234D9550CF26 /* YLRecordControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLRecordControlView.h; path = YLOCRecordVideo/Classes/YLRecordControlView.h; sourceTree = "<group>"; };
 		8F6E88895D5D8B2528ED55EF2D2DC036 /* Pods_YLOCRecordVideo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLOCRecordVideo_Tests.framework; path = "Pods-YLOCRecordVideo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FBD97FA55EEECD4DAB1AE8B76ADF448 /* YLRecordVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLRecordVideoView.h; path = YLOCRecordVideo/Classes/YLRecordVideoView.h; sourceTree = "<group>"; };
-		904414157F1192C0E9213E18E9FD8CF0 /* YLOCRecordVideo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLOCRecordVideo.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		986CB542A5CC71439EE588DA7B7AFD21 /* RecordHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RecordHeader.h; path = YLOCRecordVideo/Classes/RecordHeader.h; sourceTree = "<group>"; };
 		9F0B48EE83E33EE1CDD0C6F0A5E43F77 /* Pods-YLOCRecordVideo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLOCRecordVideo_Tests-resources.sh"; sourceTree = "<group>"; };
-		B1E31A41CCDA2F51D5C6EC7FFBEE6EAC /* YLRecordVideoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLRecordVideoManager.h; path = YLOCRecordVideo/Classes/YLRecordVideoManager.h; sourceTree = "<group>"; };
+		A1247ECEE8FE8C6DB6635C0DEAC205CE /* YLOCRecordVideo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLOCRecordVideo.xcconfig; sourceTree = "<group>"; };
 		B353B48931A14646137786D9F863C8DB /* Pods-YLOCRecordVideo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLOCRecordVideo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B83AA5F06C01BA979E7C3BE7EF0E2D9D /* YLOCRecordVideo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLOCRecordVideo-prefix.pch"; sourceTree = "<group>"; };
 		BDF74DB443A0E29612D539B3C52D1AC3 /* Pods-YLOCRecordVideo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLOCRecordVideo_Tests.modulemap"; sourceTree = "<group>"; };
+		BE519C0A4EB887ADC89D5ACAC506C542 /* NSTimer+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+Extension.h"; path = "YLOCRecordVideo/Classes/NSTimer+Extension.h"; sourceTree = "<group>"; };
 		BF471E925B1FC1FA4D67601A495450F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C0CC9035982A6A1C4657481774D634CE /* YLOCRecordVideo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLOCRecordVideo.modulemap; sourceTree = "<group>"; };
-		CC872C70AE964579E972EBC1B959DCAA /* YLRecordControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLRecordControlView.m; path = YLOCRecordVideo/Classes/YLRecordControlView.m; sourceTree = "<group>"; };
 		D45AA760EEFBBF43199D2347C134CDC4 /* Pods-YLOCRecordVideo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLOCRecordVideo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DB051B7F061055DD9500D9203E1EDE31 /* YLProgressRecordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLProgressRecordView.h; path = YLOCRecordVideo/Classes/YLProgressRecordView.h; sourceTree = "<group>"; };
+		DA6C2C6D040F4AB20D1C48973BC2FFE1 /* YLOCRecordVideo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLOCRecordVideo.modulemap; sourceTree = "<group>"; };
+		DADF41357848AC354A68502367AD61DF /* YLOCRecordVideo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLOCRecordVideo-dummy.m"; sourceTree = "<group>"; };
+		DCF0F75923CCC070F6185E36941B1408 /* UIColor+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extension.h"; path = "YLOCRecordVideo/Classes/UIColor+Extension.h"; sourceTree = "<group>"; };
+		DEDDF013FEE0CA4BCB8EE2FCCB1EE020 /* YLRecordControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLRecordControlView.m; path = YLOCRecordVideo/Classes/YLRecordControlView.m; sourceTree = "<group>"; };
 		E3D02C05F81C9783E546A8BA3401F08A /* YLOCRecordVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLOCRecordVideo.framework; path = YLOCRecordVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E44D7B4CC8E889F696709377EB0E0ECC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4534828D5ABDB55A74177F3DC1BDCCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8A8CB19DEAED306FD50D6948611AF11 /* YLRecordControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLRecordControlView.h; path = YLOCRecordVideo/Classes/YLRecordControlView.h; sourceTree = "<group>"; };
 		ECB48E53F489E0C31311A52522AF61E2 /* Pods-YLOCRecordVideo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLOCRecordVideo_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		EFE515D9ACF6BE2C22A6BC8EF99F6E81 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		FA7990CCDD5D94A51EA51FEFFEF29EFB /* YLOCRecordVideo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLOCRecordVideo-dummy.m"; sourceTree = "<group>"; };
+		F76173A497192895D58BAAB9163405A4 /* YLRecordVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLRecordVideoView.h; path = YLOCRecordVideo/Classes/YLRecordVideoView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		104ECB0AE47DCF6A96A1C73019C686C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				668BB3F7C870E34F8BFB73BA075D5D09 /* Info.plist */,
+				DA6C2C6D040F4AB20D1C48973BC2FFE1 /* YLOCRecordVideo.modulemap */,
+				A1247ECEE8FE8C6DB6635C0DEAC205CE /* YLOCRecordVideo.xcconfig */,
+				DADF41357848AC354A68502367AD61DF /* YLOCRecordVideo-dummy.m */,
+				B83AA5F06C01BA979E7C3BE7EF0E2D9D /* YLOCRecordVideo-prefix.pch */,
+				5C18DE1CB294C646DEF67E7956C3FAAF /* YLOCRecordVideo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YLOCRecordVideo";
+			sourceTree = "<group>";
+		};
 		1D38B8A9D86E14D8F654FDC3E70C6480 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,25 +140,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5AB20BCAF7DE16DA136C40024F989736 /* YLOCRecordVideo */ = {
-			isa = PBXGroup;
-			children = (
-				986CB542A5CC71439EE588DA7B7AFD21 /* RecordHeader.h */,
-				DB051B7F061055DD9500D9203E1EDE31 /* YLProgressRecordView.h */,
-				23ADC3852EBE3E321A15D1CAF062B782 /* YLProgressRecordView.m */,
-				E8A8CB19DEAED306FD50D6948611AF11 /* YLRecordControlView.h */,
-				CC872C70AE964579E972EBC1B959DCAA /* YLRecordControlView.m */,
-				B1E31A41CCDA2F51D5C6EC7FFBEE6EAC /* YLRecordVideoManager.h */,
-				1F15DD655F0E3C6C03FA094428EA48EA /* YLRecordVideoManager.m */,
-				8FBD97FA55EEECD4DAB1AE8B76ADF448 /* YLRecordVideoView.h */,
-				1A39214ADDF3BADADEF30D773A427F7D /* YLRecordVideoView.m */,
-				70D17959A78AD88FA68F769AE08F4926 /* Pod */,
-				FB15C4976E002107E869E78DB32DC5AA /* Support Files */,
-			);
-			name = YLOCRecordVideo;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7057AAD7CE4A4E5C5F53C017BC396ED1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,33 +148,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		70D17959A78AD88FA68F769AE08F4926 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6A2E3C287B4ED7AA990B42E6B4D6C54C /* LICENSE */,
-				28717267EEBB9F7C58453696D35C7541 /* README.md */,
-				3080EBBC5E893A4B7D23EA868B51FB98 /* YLOCRecordVideo.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				990C97758C47C208D23DD7906FC6BEDF /* Development Pods */,
+				ED66FF5BED90A1AFE6171221C20F3D32 /* Development Pods */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
 				1D38B8A9D86E14D8F654FDC3E70C6480 /* Products */,
 				7057AAD7CE4A4E5C5F53C017BC396ED1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		990C97758C47C208D23DD7906FC6BEDF /* Development Pods */ = {
+		B205206C34F9B88652D14ED230BA12A5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5AB20BCAF7DE16DA136C40024F989736 /* YLOCRecordVideo */,
+				5D074FDE3857DDC4966A4000DD624CC2 /* LICENSE */,
+				484CFC73B69BFECD656A70D80D41C721 /* README.md */,
+				0FBFD9A750A89889FD4FAC6CFA2DE2AF /* YLOCRecordVideo.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C6FED8C7A0573E0A12BA49BB864F21A9 /* Pods-YLOCRecordVideo_Tests */ = {
@@ -192,6 +187,14 @@
 			path = "Target Support Files/Pods-YLOCRecordVideo_Tests";
 			sourceTree = "<group>";
 		};
+		ED66FF5BED90A1AFE6171221C20F3D32 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F82123C39C18B573EB14414CD5E4D24A /* YLOCRecordVideo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		EFBED59A89E24C0B1A8ECE6455A905A0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,18 +207,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FB15C4976E002107E869E78DB32DC5AA /* Support Files */ = {
+		F82123C39C18B573EB14414CD5E4D24A /* YLOCRecordVideo */ = {
 			isa = PBXGroup;
 			children = (
-				E44D7B4CC8E889F696709377EB0E0ECC /* Info.plist */,
-				C0CC9035982A6A1C4657481774D634CE /* YLOCRecordVideo.modulemap */,
-				904414157F1192C0E9213E18E9FD8CF0 /* YLOCRecordVideo.xcconfig */,
-				FA7990CCDD5D94A51EA51FEFFEF29EFB /* YLOCRecordVideo-dummy.m */,
-				0CF1F88169805BA5924433CB1CB80861 /* YLOCRecordVideo-prefix.pch */,
-				7DF0325831D550687C3648F333DF27D9 /* YLOCRecordVideo-umbrella.h */,
+				BE519C0A4EB887ADC89D5ACAC506C542 /* NSTimer+Extension.h */,
+				72C482E0704C2045E148B63473129732 /* NSTimer+Extension.m */,
+				7CEBEF3043BC70E87BFB692B89C58F32 /* RecordHeader.h */,
+				DCF0F75923CCC070F6185E36941B1408 /* UIColor+Extension.h */,
+				5AC6739B1774E645DD02527438C83129 /* UIColor+Extension.m */,
+				8B0670A01A154C3331453A74F763E334 /* YLProgressRecordView.h */,
+				146CFC8BED7C2DA1F0FB7A57CA278B16 /* YLProgressRecordView.m */,
+				8C48957BC46E1725FB7B234D9550CF26 /* YLRecordControlView.h */,
+				DEDDF013FEE0CA4BCB8EE2FCCB1EE020 /* YLRecordControlView.m */,
+				1800B49A9D0C2E996B1CB250BF230510 /* YLRecordVideoManager.h */,
+				1674C9383529826EA961F0A0D65E3DCF /* YLRecordVideoManager.m */,
+				F76173A497192895D58BAAB9163405A4 /* YLRecordVideoView.h */,
+				81B462E1CB696D99ACFD1580472ADFFE /* YLRecordVideoView.m */,
+				B205206C34F9B88652D14ED230BA12A5 /* Pod */,
+				104ECB0AE47DCF6A96A1C73019C686C9 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YLOCRecordVideo";
+			name = YLOCRecordVideo;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,16 +241,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		760E7683D45FBA3CC317BC9338D97974 /* Headers */ = {
+		D6D579899EEBF98BDD410230B5A6282D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				338134E12E635844CD9B8E4493BEF816 /* RecordHeader.h in Headers */,
-				69E2CF40D9D49BB2D1982376BD9F4553 /* YLOCRecordVideo-umbrella.h in Headers */,
-				916BB06B4D353EB70DD50B8C8C084647 /* YLProgressRecordView.h in Headers */,
-				1F75208636D767A4F6AB9FF220F9096B /* YLRecordControlView.h in Headers */,
-				B95815B9B129689E7625B269A89FDA0C /* YLRecordVideoManager.h in Headers */,
-				B94CD3BC2CAC17B188E1F36887A36471 /* YLRecordVideoView.h in Headers */,
+				796BF38C72A8BEDAA02F9FAB1BD9CB5C /* NSTimer+Extension.h in Headers */,
+				63A7A136D4A66A9B32F000BE98DD1893 /* RecordHeader.h in Headers */,
+				724619A48CA01EA0E8D1C0DAF2C28CC1 /* UIColor+Extension.h in Headers */,
+				A804D172E2373807EBF5B8E26EB0806A /* YLOCRecordVideo-umbrella.h in Headers */,
+				70D55F15D084F725EBEC3EE5BF67FB76 /* YLProgressRecordView.h in Headers */,
+				F5449950CA4B7C52F899305203F0CB1D /* YLRecordControlView.h in Headers */,
+				38D77EA13C58E187E4B070539FAC239E /* YLRecordVideoManager.h in Headers */,
+				76E1682FE9CA6ECFFDAE06911AF1BAC2 /* YLRecordVideoView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +263,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40FB2CA954C25E389861AF71CF2A1F63 /* Build configuration list for PBXNativeTarget "YLOCRecordVideo" */;
 			buildPhases = (
-				4FE4F2B7805A4D60E46F00F5415DADD7 /* Sources */,
+				B004301CEB24BDAC0A4965E31E22F53F /* Sources */,
 				9DF58AD278A1934989E8499292FA895E /* Frameworks */,
-				760E7683D45FBA3CC317BC9338D97974 /* Headers */,
+				D6D579899EEBF98BDD410230B5A6282D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -308,23 +322,25 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4FE4F2B7805A4D60E46F00F5415DADD7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B40A0EB5B5B923FA25639699CB68E600 /* YLOCRecordVideo-dummy.m in Sources */,
-				5152DA209F721DA2217C9C0E33D73A16 /* YLProgressRecordView.m in Sources */,
-				DBA33A28471C4D668A8E9E83F61518C8 /* YLRecordControlView.m in Sources */,
-				7BF169EA9798DEB5768CDAA4D70A8D0F /* YLRecordVideoManager.m in Sources */,
-				8103DD848CE70A68927F677473E747CC /* YLRecordVideoView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8D0695F46A8332C460EEB295D9D9C549 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F8C7224A6A27C20DE17088ED322F2CCE /* Pods-YLOCRecordVideo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B004301CEB24BDAC0A4965E31E22F53F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AF207E158146C32BB6B7279C1A9601 /* NSTimer+Extension.m in Sources */,
+				D0FD78C2B9EDC9F0BC29334554C49D76 /* UIColor+Extension.m in Sources */,
+				D274BDFDE5D312DAB4BCE3E4C38AD0D6 /* YLOCRecordVideo-dummy.m in Sources */,
+				8726877D108692ED2D99B21418E925ED /* YLProgressRecordView.m in Sources */,
+				8172F21E6FFA1E3A34462D6B0EA99B91 /* YLRecordControlView.m in Sources */,
+				396CA1DADDA7CA97D58740E15C9A8E6A /* YLRecordVideoManager.m in Sources */,
+				003DC0C0FBCA605FDD65B761EDD98DE6 /* YLRecordVideoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,7 +513,7 @@
 		};
 		B4A6F018817B3AC8F776354290D40FD8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 904414157F1192C0E9213E18E9FD8CF0 /* YLOCRecordVideo.xcconfig */;
+			baseConfigurationReference = A1247ECEE8FE8C6DB6635C0DEAC205CE /* YLOCRecordVideo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -528,7 +544,7 @@
 		};
 		F229D2E8DA4C590FC1909CFF7CD8AE3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 904414157F1192C0E9213E18E9FD8CF0 /* YLOCRecordVideo.xcconfig */;
+			baseConfigurationReference = A1247ECEE8FE8C6DB6635C0DEAC205CE /* YLOCRecordVideo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

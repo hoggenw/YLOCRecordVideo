@@ -7,7 +7,9 @@
 //
 
 #import "YLProgressRecordView.h"
-#import "ExtensionHeader.h"
+#import "NSTimer+Extension.h"
+#import "UIColor+Extension.h"
+
 
 
 @interface YLProgressRecordView ()

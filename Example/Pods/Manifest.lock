@@ -1,5 +1,5 @@
 PODS:
-  - YLOCRecordVideo (0.9.1)
+  - YLOCRecordVideo (0.9.2)
 
 DEPENDENCIES:
   - YLOCRecordVideo (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YLOCRecordVideo: 437de5d626c0e857596c5804af946434299554ee
+  YLOCRecordVideo: d3a0b13c2179703ddfc9998df6978b08d59798af
 
 PODFILE CHECKSUM: 67b147db5bfa07ffe638389a5002efb7d5676158
 

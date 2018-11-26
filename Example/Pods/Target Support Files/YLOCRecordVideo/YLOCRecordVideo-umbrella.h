@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "NSTimer+Extension.h"
 #import "RecordHeader.h"
+#import "UIColor+Extension.h"
 #import "YLProgressRecordView.h"
 #import "YLRecordControlView.h"
 #import "YLRecordVideoManager.h"
