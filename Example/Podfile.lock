@@ -1,0 +1,16 @@
+PODS:
+  - YLOCRecordVideo (0.9.0)
+
+DEPENDENCIES:
+  - YLOCRecordVideo (from `../`)
+
+EXTERNAL SOURCES:
+  YLOCRecordVideo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YLOCRecordVideo: 793a56fd2b42ee3e8f969dadf5a56a4a58d5f286
+
+PODFILE CHECKSUM: 67b147db5bfa07ffe638389a5002efb7d5676158
+
+COCOAPODS: 1.5.0

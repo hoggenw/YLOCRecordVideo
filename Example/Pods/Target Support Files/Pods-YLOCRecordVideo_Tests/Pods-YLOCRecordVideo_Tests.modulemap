@@ -1,0 +1,6 @@
+framework module Pods_YLOCRecordVideo_Tests {
+  umbrella header "Pods-YLOCRecordVideo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
